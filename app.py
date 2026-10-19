@@ -1,6 +1,9 @@
 import os
+import sys
 from math import gcd
 from flask import Flask, request, Response
+
+sys.set_int_max_str_digits(0)
 
 app = Flask(__name__)
 
